@@ -14,6 +14,32 @@
     width: 100%;
 
 }
+table tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+table th{
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #17298d;
+    font-weight: bold;
+}
+table td{
+    text-align: left;
+    padding: 10px;
+}
+table a{
+    text-decoration: none;
+    color: #17298d;
+}    
+table a:hover{
+    text-decoration: underline;
+    color: red;
+    transition: 0.7s;
+}
 .bottom {
     order: 3;
     bottom: 0;
