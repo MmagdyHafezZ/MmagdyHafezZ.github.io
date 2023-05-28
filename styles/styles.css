@@ -200,6 +200,7 @@ section {
 .header-content .right-header .name span {
   color: var(--color-secondary);
 }
+
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
@@ -634,6 +635,11 @@ section {
 .contact-content-con .right-contact .submit-btn {
   display: flex;
   justify-content: flex-start;
+}
+.contact-content-con .right-contact .submit-btn span {
+  color: var(--color-grey-2);
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
 }
 
 /*Independed components*/
