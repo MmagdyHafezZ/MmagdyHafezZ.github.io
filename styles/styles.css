@@ -771,7 +771,10 @@ section {
   align-items: center;
   justify-content: space-between;
 }
-
+.maintain {
+  background-color: red;
+  text-align: center;
+}
 .close-btn {
   cursor: pointer;
   color: #999;
