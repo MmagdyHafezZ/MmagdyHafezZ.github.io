@@ -7,6 +7,14 @@
       document.getElementById(button.dataset.id).classList.add("active");
     });
   });
+
+  document
+    .querySelector('a[href="#portfolio"]')
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector('.control[data-id="portfolio"]').click();
+    });
+
   document.querySelector(".theme-btn").addEventListener("click", () => {
     document.body.classList.toggle("light-mode");
   });
