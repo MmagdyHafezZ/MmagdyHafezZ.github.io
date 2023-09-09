@@ -218,7 +218,7 @@ section {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 2rem;
-  padding-top: 2.5rem;
+  padding: 2.5rem;
 }
 .about-container .right-about .about-item {
   border: 1px solid var(--color-grey-5);
@@ -323,29 +323,29 @@ section {
   width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+  width: 80%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .cPlus {
-  width: 70%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .Java {
-  width: 70%;
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .MySQL {
   width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .GIT {
-  width: 75%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .AWS {
-  width: 65%;
+  width: 70%;
 }
 
 .stat-title {
@@ -497,6 +497,7 @@ section {
 .portfolio-item:hover .hover-items {
   opacity: 1;
   transform: scale(1);
+  width: 100%;
 }
 
 .blogs {
@@ -655,6 +656,7 @@ section {
 .btn-con {
   display: flex;
   align-self: flex-start;
+  padding: 20px;
 }
 
 .main-btn {
@@ -725,6 +727,8 @@ section {
 
 .about-container .left-about p {
   padding-left: 0;
+  margin: 10px;
+  padding: 10px;
 }
 .right-contact .submit-btn .main-btn {
   background-color: transparent;
