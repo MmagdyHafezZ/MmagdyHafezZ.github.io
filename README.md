@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Magdy</h1>
-<h3 align="center">a A Third-year undergraduate Software Engineer with a knack for networking and cybersecurity. I'm passionate about becoming a high-skilled programmer, and I have a track record to prove it.</h3>
+<h3 align="center">A Third-year undergraduate Software Engineer with a knack for networking and cybersecurity. I'm passionate about becoming a high-skilled programmer, and I have a track record to prove it.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mmagdyhafezz&label=Profile%20views&color=0e75b6&style=flat" alt="mmagdyhafezz" /> </p>
 
