@@ -193,7 +193,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 17rem;
 }
 .header-content .right-header .name {
   font-size: 3rem;
@@ -203,7 +203,6 @@ section {
 }
 
 .header-content .right-header p {
-  margin: 1.5rem 0;
   line-height: 2rem;
 }
 
@@ -655,8 +654,9 @@ section {
 /*Independed components*/
 .btn-con {
   display: flex;
-  align-self: flex-start;
-  padding: 20px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-around;
 }
 
 .main-btn {
@@ -888,6 +888,11 @@ section {
 
   .container {
     padding: 2rem 2.5rem !important;
+  }
+  .btn-con{
+    flex-direction: column;
+    height: 10rem;
+    align-content: center;
   }
 
   .about-stats .progress-bars {
