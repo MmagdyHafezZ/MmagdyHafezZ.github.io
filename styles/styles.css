@@ -503,7 +503,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 .blogs .blog {
   position: relative;
@@ -553,6 +553,7 @@ section {
 
 .contact-content-con {
   display: flex;
+  flex-direction: column;
   padding-top: 3.5rem;
 }
 .contact-content-con .left-contact {
@@ -588,6 +589,7 @@ section {
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 2rem;
+  justify-content: center;
 }
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
@@ -616,7 +618,6 @@ section {
 }
 .contact-content-con .right-contact {
   flex: 3;
-  margin-left: 3rem;
 }
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
@@ -643,7 +644,7 @@ section {
 }
 .contact-content-con .right-contact .submit-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 .contact-content-con .right-contact .submit-btn span {
   color: var(--color-grey-2);
@@ -657,6 +658,7 @@ section {
   padding: 10px;
   margin: 10px;
   justify-content: space-around;
+  text-wrap: nowrap;
 }
 
 .main-btn {
@@ -732,6 +734,7 @@ section {
 }
 .right-contact .submit-btn .main-btn {
   background-color: transparent;
+  
 }
 .right-contact .submit-btn .main-btn .btn-icon {
   background-color: var(--color-secondary);
