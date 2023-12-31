@@ -193,7 +193,9 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 18rem;
+    padding-right: 8rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     .name {
       font-size: 3rem;
       span {
@@ -211,12 +213,14 @@ section {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 3.5rem;
-  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
   .right-about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+    max-height: 300px;
+    padding-top: 1rem;
     .about-item {
       border: 1px solid var(--color-grey-5);
       border-radius: 5px;
@@ -259,11 +263,11 @@ section {
   }
 
   .left-about {
-    padding-right: 5rem;
+    padding-right: 2rem;
     p {
       line-height: 2rem;
-      padding: 1rem;
       color: var(--color-grey-1);
+      padding-bottom: 5px;
     }
     h4 {
       font-size: 2rem;
@@ -278,12 +282,19 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+    padding-bottom: 2rem;
     .progress-bar {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-content: center;
       .prog-title {
+        display: flex;
         text-transform: uppercase;
         font-weight: 500;
+        justify-content: center;
+        align-content: center;
+
       }
       .progress-con {
         display: flex;
@@ -350,7 +361,7 @@ section {
 /*Timeline*/
 .timeline {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 2rem;
   padding-bottom: 3rem;
   .timeline-item {
@@ -402,11 +413,26 @@ section {
 .port-text {
   padding: 2rem 0;
   text-align: center;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 40%;
+    height: 1px;
+    background-color: var(--color-grey-5);
+    transform: translateX(-50%);
+  }
+}
+.portfolios .portfolio-item .hover-items p {
+  font-size: 1.0rem;
+  line-height: 2rem;
+  padding: 0 1rem;
 }
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
   .portfolio-item {
@@ -633,6 +659,7 @@ section {
 .btn-con {
   display: flex;
   align-self: flex-start;
+  padding: 1rem;
 }
 .main-btn {
   border-radius: 30px;
@@ -643,9 +670,10 @@ section {
   display: flex;
   align-self: flex-start;
   align-items: center;
+  margin:5px;
   overflow: hidden;
   .btn-text {
-    padding: 0 2rem;
+    padding: 0 1rem;  
   }
   .btn-icon {
     background-color: var(--color-secondary);
@@ -663,6 +691,7 @@ section {
     transform: translateX(100%);
     transition: all 0.4s ease-out;
     z-index: -1;
+
   }
   &:hover {
     transition: all 0.4s ease-out;
@@ -699,5 +728,6 @@ section {
     }
   }
 }
+
 
 @import "./media";

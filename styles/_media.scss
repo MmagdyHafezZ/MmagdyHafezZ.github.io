@@ -1,6 +1,4 @@
-.about-container .left-about p {
-  padding-left: 0;
-}
+
 
 @media screen and (max-width: 600px) {
   header {
@@ -447,9 +445,6 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
   }
-  .portfolios {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .header-content .right-header {
     padding-right: 9rem;
   }
@@ -468,6 +463,8 @@
     grid-template-columns: repeat(1, 1fr);
     .right-about {
       padding-top: 2.5rem;
+      max-height: 1300px;
+
     }
   }
   .main-title {
@@ -540,5 +537,14 @@
         font-size: 4rem;
       }
     }
+  }
+}
+@media screen and (max-width: 600px) {
+  .portfolios .portfolio-item .hover-items{
+    font-size:x-small;
+  }
+  .portfolios .portfolio-item .hover-items .icons .icon {
+    width: 35px;
+    height: 35px; 
   }
 }
