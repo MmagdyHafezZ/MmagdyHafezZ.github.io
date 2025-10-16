@@ -13,7 +13,6 @@ This is my personal portfolio website showcasing my journey as a Software Engine
 ## 🎯 Key Highlights
 
 - **IBM Experience**: Software Developer Intern/Student on Call Developer at IBM Skills Network
-- **Best Intern Recognition**: Named Best Intern for 12 out of 16 months
 - **Mark Platform**: Rebuilt AI-powered assessment platform serving 100K+ learners
 - **P.I.T.C.H. Leadership**: Leading team of 5 engineers on IBM-sponsored capstone project
 - **Technical Excellence**: 85% system reliability improvement, 70% latency reduction
